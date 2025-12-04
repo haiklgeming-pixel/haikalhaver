@@ -14,13 +14,14 @@ import TokohDetail from "@/pages/TokohDetail";
 import Peta from "@/pages/Peta";
 import Galeri from "@/pages/Galeri";
 import Tentang from "@/pages/Tentang";
+import parchmentTexture from "@assets/generated_images/aged_parchment_paper_texture..png";
 
 function Router() {
   return (
     <>
       <Intro />
       <Switch>
-        <Route path="/" component={Home} /> {/* Intro will redirect to /home actually, but initial load handles / */}
+        <Route path="/" component={Home} />
         <Route path="/home" component={Home} />
         <Route path="/timeline" component={Timeline} />
         <Route path="/peristiwa" component={PeristiwaList} />
@@ -40,8 +41,22 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Toaster />
-        <Router />
+        <div 
+            className="min-h-screen w-full bg-background font-body text-foreground antialiased"
+            style={{
+                // Global Texture Application
+                backgroundImage: `url(${parchmentTexture})`,
+                backgroundRepeat: "repeat",
+                backgroundSize: "500px", // Tile it
+                backgroundBlendMode: "multiply",
+            }}
+        >
+            {/* Global Overlay to soften the texture */}
+            <div className="fixed inset-0 bg-background/80 pointer-events-none z-[-1]" />
+            
+            <Toaster />
+            <Router />
+        </div>
       </TooltipProvider>
     </QueryClientProvider>
   );
