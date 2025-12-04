@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Pangeran Diponegoro",
+    "role": "Pemimpin Perang Jawa",
+    "bio": "Putra sulung Sultan Hamengkubuwono III. Dikenal sebagai pemimpin yang karismatik, religius, dan anti-penjajah. Ia memimpin Perang Jawa selama 5 tahun melawan Belanda.",
+    "location": "Yogyakarta",
+    "image": "diponegoro.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kyai Mojo",
+    "role": "Penasihat Spiritual",
+    "bio": "Seorang ulama terkemuka yang menjadi penasihat spiritual Pangeran Diponegoro. Ia memimpin pasukan santri dalam perang.",
+    "location": "Pajang",
+    "image": "kyai-mojo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sentot Alibasyah",
+    "role": "Panglima Perang",
+    "bio": "Panglima perang muda yang jenius dalam strategi militer. Ia memimpin pasukan kavaleri Diponegoro dan dikenal sangat berani.",
+    "location": "Madiun",
+    "image": "sentot.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jenderal De Kock",
+    "role": "Panglima Belanda",
+    "bio": "Hendrik Merkus de Kock, Letnan Gubernur Jenderal Hindia Belanda yang memimpin operasi militer untuk memadamkan Perang Jawa. Pencetus strategi Benteng Stelsel.",
+    "location": "Batavia",
+    "image": "de-kock.jpg"
+  }
+]

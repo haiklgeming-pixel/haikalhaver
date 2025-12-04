@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "slug": "pecahnya-perang-1825",
+    "title": "Pecahnya Perang Jawa",
+    "year": "1825",
+    "location": "Tegalrejo, Yogyakarta",
+    "figures": ["Pangeran Diponegoro", "Patih Danurejo IV", "Residen Smissaert"],
+    "narrative": "Perang Jawa bermula dari insiden di Tegalrejo. Pihak Belanda, atas perintah Patih Danurejo IV, memasang patok-patok untuk pembangunan jalan yang melintasi tanah makam leluhur Pangeran Diponegoro. Tindakan ini dianggap sebagai penghinaan besar. Pangeran Diponegoro memerintahkan pencabutan patok-patok tersebut dan menggantinya dengan tombak, sebuah simbol pernyataan perang.",
+    "image": "war-start.jpg",
+    "references": ["Babad Diponegoro", "Sejarah Nasional Indonesia Jilid IV"]
+  },
+  {
+    "id": "2",
+    "slug": "kemenangan-awal-1826",
+    "title": "Kemenangan Awal Pasukan Diponegoro",
+    "year": "1826",
+    "location": "Jawa Tengah & Yogyakarta",
+    "figures": ["Pangeran Diponegoro", "Sentot Alibasyah", "Kyai Mojo"],
+    "narrative": "Dengan dukungan rakyat dan strategi gerilya yang mumpuni, pasukan Diponegoro mencatat serangkaian kemenangan. Mereka berhasil memobilisasi kekuatan santri dan petani. Serangan mendadak dan penguasaan medan membuat pasukan Belanda kewalahan di tahun-tahun awal perang.",
+    "image": "war-victory.jpg",
+    "references": ["Peter Carey, Kuasa Ramalan"]
+  },
+  {
+    "id": "3",
+    "slug": "benteng-stelsel-1827",
+    "title": "Penerapan Benteng Stelsel",
+    "year": "1827",
+    "location": "Seluruh wilayah konflik",
+    "figures": ["Jenderal De Kock"],
+    "narrative": "Menghadapi taktik gerilya Diponegoro, Jenderal De Kock menerapkan strategi Benteng Stelsel. Belanda membangun benteng-benteng di wilayah yang telah dikuasai dan menghubungkannya dengan jalan-jalan bagus untuk mobilitas pasukan. Strategi ini efektif memecah belah pasukan Diponegoro dan mempersempit ruang gerak mereka.",
+    "image": "fortress.jpg",
+    "references": ["Sejarah Perang Jawa"]
+  },
+  {
+    "id": "4",
+    "slug": "pelemahan-pasukan-1829",
+    "title": "Meredupnya Perlawanan",
+    "year": "1829",
+    "location": "Berbagai wilayah",
+    "figures": ["Kyai Mojo", "Sentot Alibasyah"],
+    "narrative": "Tahun 1829 menjadi titik balik. Kesulitan logistik dan strategi Belanda mulai membuahkan hasil. Kyai Mojo, penasihat spiritual Diponegoro, ditangkap. Sentot Alibasyah, panglima perang utama, akhirnya menyerah kepada Belanda. Kekuatan Diponegoro semakin terisolasi.",
+    "image": "surrender.jpg",
+    "references": ["Ricklefs, Sejarah Indonesia Modern"]
+  },
+  {
+    "id": "5",
+    "slug": "penangkapan-diponegoro-1830",
+    "title": "Penangkapan di Magelang",
+    "year": "1830",
+    "location": "Magelang",
+    "figures": ["Pangeran Diponegoro", "Jenderal De Kock"],
+    "narrative": "Pada 28 Maret 1830, Pangeran Diponegoro bersedia hadir di Magelang untuk berunding dengan Jenderal De Kock. Namun, perundingan itu ternyata jebakan. Diponegoro ditangkap dan kemudian diasingkan ke Manado, lalu ke Makassar hingga wafatnya. Peristiwa ini menandai berakhirnya Perang Jawa.",
+    "image": "capture.jpg",
+    "references": ["Babad Diponegoro"]
+  }
+]

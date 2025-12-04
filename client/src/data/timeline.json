@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "year": 1825,
+    "title": "Pecahnya Perang",
+    "description": "Pangeran Diponegoro menolak pemasangan patok oleh Belanda di tanah leluhurnya di Tegalrejo.",
+    "slug": "pecahnya-perang-1825"
+  },
+  {
+    "id": 2,
+    "year": 1826,
+    "title": "Kemenangan Awal",
+    "description": "Pasukan Diponegoro berhasil menguasai beberapa wilayah di Yogyakarta dan Jawa Tengah.",
+    "slug": "kemenangan-awal-1826"
+  },
+  {
+    "id": 3,
+    "year": 1827,
+    "title": "Strategi Benteng Stelsel",
+    "description": "Jenderal De Kock menerapkan strategi Benteng Stelsel untuk mempersempit ruang gerak pasukan Diponegoro.",
+    "slug": "benteng-stelsel-1827"
+  },
+  {
+    "id": 4,
+    "year": 1829,
+    "title": "Pelemahan Pasukan",
+    "description": "Banyak panglima utama Diponegoro seperti Kyai Mojo dan Sentot Alibasyah menyerah atau ditangkap.",
+    "slug": "pelemahan-pasukan-1829"
+  },
+  {
+    "id": 5,
+    "year": 1830,
+    "title": "Penangkapan Diponegoro",
+    "description": "Pangeran Diponegoro ditangkap saat perundingan di Magelang, menandai berakhirnya Perang Jawa.",
+    "slug": "penangkapan-diponegoro-1830"
+  }
+]
