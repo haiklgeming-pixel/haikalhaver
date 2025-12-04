@@ -1,0 +1,248 @@
+Bangun sebuah proyek website lengkap menggunakan React + Vite (atau Next.js jika lebih optimal dalam WinSurf), tanpa backend, sesuai PRD berikut. Semua data harus berada di file JSON lokal dan di-load menggunakan fetch. Website harus memiliki animasi sederhana, responsif, dan navigasi komponen modern.
+
+Gunakan struktur komponen React yang bersih, modular, dan mudah dikembangkan.
+
+📘 PRD: Website Interaktif Sejarah Perang Jawa (1825–1830)
+1. Halaman Intro (Selalu Muncul)
+
+Buat komponen Intro.jsx dengan fitur:
+
+Intro SELALU muncul setiap kali user membuka website (no localStorage skip).
+
+Elemen:
+
+Animasi fade-in (gunakan CSS transition / Framer Motion jika tersedia)
+
+Teks pembuka sejarah Perang Jawa
+
+Tombol:
+
+Masuk ke Situs
+
+Lewati Intro
+
+Putar Ulang Intro
+
+Setelah tombol ditekan → arahkan ke route /home.
+
+Routing menggunakan React Router.
+
+2. Halaman Home
+
+Komponen: Home.jsx
+
+Isi:
+
+Hero Section (gambar Perang Jawa)
+
+Ringkasan sejarah singkat
+
+Button / Card navigasi ke:
+
+/timeline
+
+/peristiwa
+
+/tokoh
+
+/peta
+
+/galeri
+
+UI: modern, clean, responsif.
+
+3. Timeline Interaktif
+
+Komponen: Timeline.jsx
+
+Ambil data dari /data/timeline.json
+
+Render event secara scroll horizontal
+
+Klik event → buka /peristiwa/:slug
+
+Gunakan flexbox scroll atau library timeline jika allowed
+
+4. Halaman Peristiwa
+
+Komponen:
+
+PeristiwaList.jsx
+
+PeristiwaDetail.jsx
+
+Peristiwa list:
+
+Render berdasarkan /data/peristiwa.json
+
+Detail peristiwa:
+
+Ambil slug dari URL
+
+Tampilkan:
+
+judul
+
+tahun
+
+lokasi
+
+tokoh terkait
+
+narasi sejarah
+
+gambar ilustrasi
+
+referensi
+
+5. Halaman Tokoh
+
+Komponen:
+
+TokohList.jsx
+
+TokohDetail.jsx
+
+Grid tokoh → klik item → buka halaman detail.
+
+Detail tokoh tampilkan:
+
+Foto
+
+Biografi
+
+Peran
+
+Lokasi aktivitas
+
+Galeri mini
+
+Data berada di /data/tokoh.json.
+
+6. Peta Konflik
+
+Komponen: Peta.jsx
+
+Gunakan peta SVG atau gambar
+
+Tambahkan titik lokasi pertempuran
+
+Tooltip ketika hover
+
+Tooltip berisi: nama lokasi, tahun, peristiwa penting
+
+7. Galeri Ilustrasi
+
+Komponen:
+
+Galeri.jsx
+
+Gunakan lightbox viewer (buatan sendiri atau library kecil)
+
+8. Tentang / Referensi
+
+Komponen: Tentang.jsx
+
+Berisi:
+
+Arsip sumber
+
+Buku rujukan
+
+Keterangan metodologi data
+
+9. Struktur Folder Wajib
+
+Gunakan struktur berikut:
+
+/src
+  /components
+    Intro.jsx
+    Navbar.jsx
+    Timeline.jsx
+    Lightbox.jsx
+  /pages
+    Home.jsx
+    Timeline.jsx
+    PeristiwaList.jsx
+    PeristiwaDetail.jsx
+    TokohList.jsx
+    TokohDetail.jsx
+    Galeri.jsx
+    Peta.jsx
+    Tentang.jsx
+  /data
+    timeline.json
+    peristiwa.json
+    tokoh.json
+
+  /styles
+    global.css
+    intro.css
+    timeline.css
+
+App.jsx
+main.jsx
+index.html
+
+10. Teknologi
+
+React
+
+React Router
+
+CSS modules atau Tailwind optional
+
+Framer Motion optional
+
+Fetch JSON untuk data
+
+Tidak ada backend
+
+Tidak ada database
+
+Semua halaman adalah SPA routed
+
+11. MVP Wajib
+
+Intro komplit
+
+Home
+
+Timeline
+
+Peristiwa (list + detail)
+
+Tokoh (list + detail)
+
+Peta konflik (versi dasar)
+
+Galeri
+
+Routing lengkap
+
+JSON data template
+
+Desain responsif mobile-first
+
+📝 Tolong hasilkan:
+
+Project React lengkap
+
+Struktur folder sesuai PRD
+
+Semua komponen utama
+
+Semua halaman
+
+File JSON kosong tapi terstruktur
+
+Styling dasar modern
+
+Logic routing React Router
+
+Timeline interaktif dasar
+
+Lightbox sederhana
+
+Animasi intro
